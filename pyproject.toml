@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "vaje"
+version = "0.1.0"
+description = ""
+authors = ["= <jan.sernec@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.1"
+scikit-learn = "^1.4.1.post1"
+flask = "^3.0.2"
+poethepoet = "^0.25.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
